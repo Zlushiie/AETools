@@ -1,0 +1,16 @@
+{
+    "token": "",
+    "antiCrash": true,
+    "prefix": "%",
+    "mainServer": "926349516205064222",
+    "dept": {
+        "roles": {
+            "treasury": "926521964586205234"
+        },
+        "channels": {
+            "treasury": [
+                "926710083709206538"
+            ]
+        }
+    }
+}
