@@ -13,8 +13,10 @@ Utility made for Anime Empire's Treasury Team.
 	5. [Colors](#colors)
 3. [Commands](#commands)
     1. [Hosting](#hosting)
+    2. [Reputation](#reputation)
 4. [Resources](#resources)
 
+You can use always use the command `++Help` to direct people to this page.
 
 > *Capitalization DOES NOT MATTER AT ALL when using the bot.*
 <br/>*The database for AETool updates every 3 minutes.*
@@ -90,8 +92,13 @@ You can host squads for running relics using the hosting commands (`++Host`, `++
 <br/>`++Prehost -45 -Neo N16`
 <br/>`++Bois -30 -ML2`
 
-### Help
-You can use the command `++Help` to direct people to this page.
+### Reputation
+TreasuryTool's reputation is equal to the number of runs that you've participated in.
+
+You can use `++Rep` or `++Rep @username` to check an individual user's reputation.
+
+You can use `++Leaderboard` to see the users with the highest/lowest reputation.
+
 ## Resources
 
 Relic info is scraped from the [Warframe Wiki](https://warframe.fandom.com/wiki/Void_Relic)
