@@ -2,28 +2,34 @@
 
 Utility made for Anime Empire's Treasury Team.
 
-1. [Shorthands](#shorthands)
-	1. [Relics](#relics)
-	2. [Soup Store](#soup-store)
-2. [Queries](#queries)
-	1. [Relics](#relics1)
-	2. [Relic Tags](#relic-tags)
-	3. [Prime Sets](#prime-sets)
-	4. [Prime Parts](#prime-parts)
-	5. [Colors](#colors)
-3. [Commands](#commands)
-    1. [Hosting](#hosting)
-    2. [Reputation](#reputation)
-4. [Resources](#resources)
+1. [Treasury](#treasury)
+	1. [Shorthands](#shorthands)
+		1. [Relics](#relics)
+		2. [Soup Store](#soup-store)
+	2. [Queries](#queries)
+		1. [Relics](#relics1)
+		2. [Relic Tags](#relic-tags)
+		3. [Prime Sets](#prime-sets)
+		4. [Prime Parts](#prime-parts)
+		5. [Colors](#colors)
+	3. [Commands](#commands)
+	    1. [Hosting](#hosting)
+	    2. [Reputation](#reputation)
+2. [Farmers](#farmers)
+	1. [Commands](#commands1)
+	    1. [Hosting](#hosting1)
+3. [Resources](#resources)
 
 You can use always use the command `++Help` to direct people to this page.
 
 > *Capitalization DOES NOT MATTER AT ALL when using the bot.*
 <br/>*The database for AETool updates every 3 minutes.*
 
-## Shorthands
+## Treasury
 
-### Relics
+### Shorthands
+
+#### Relics
 
 Relic shorthands are in the format `{First Name of Era}{Relic Tag}`.
 
@@ -32,7 +38,7 @@ Relic shorthands are in the format `{First Name of Era}{Relic Tag}`.
 <br/>`Meso L2 -> ML2`
 <br/>`Lith H3 -> LH3`
 
-### Soup Store
+#### Soup Store
 
 Soup store shorthands are in the format of `{Count}{Relic Shorthand}`.
 
@@ -42,14 +48,14 @@ Soup store shorthands are in the format of `{Count}{Relic Shorthand}`.
 <br/>`15x Lith H3 -> 15LH3`
 <br/>Total: `60AL4 45NN16 30ML2 15LH3`
 
-## Queries
+### Queries
 
 You can query prime parts, prime sets, and relics using AETools.
 <br/> If you prefer not to use a prefix, for more efficient querying, you can DM AETools queries, without a prefix
 
 <div id="relics1"></div>
 
-### Relics
+#### Relics
 You can query relics with either their full name `Lith H3` or their [shorthand](#relics), `LH3`.
 
 The title of the reply is in the format
@@ -66,38 +72,57 @@ Part 6 Rarity │ Part 6 Count │ Part 6
 ```
 For part rarity, C = common, UC = uncommon, RA = Rare
 
-### Relic Tags
+#### Relic Tags
 You can query relic tags such as `N1` or `L4`.
 
 In the case that there is only 1 relic with the given tag, it will just send an embed of that relic.
 
-### Prime Sets
+#### Prime Sets
 You can query prime sets such as `Volt Prime` or `Kronen Prime`.
 
 SPECIAL USE CASES: `Kavasa Prime Collar` and `Silva and Aegis Prime`
 
-### Prime Parts
+#### Prime Parts
 You can query prime parts such as `Volt Prime Neuroptics` or `Kronen Prime Blade`.
 
 SPECIAL USE CASES: `Venka Prime Blade`
 
-### Colors
+#### Colors
 You can query colors such as `ED` or `Red` to show all parts with the given color.
 
-## Commands
+### Commands
 
-### Hosting
+#### Hosting
 You can host squads for running relics using the hosting commands (`++Host`, `++Prehost`, and `++Bois`).
+
+Host commands are in the format `++HostCommand -relic count -relic`.
+
 > `++Host -60 -AL4`
 <br/>`++Prehost -45 -Neo N16`
 <br/>`++Bois -30 -ML2`
 
-### Reputation
+#### Reputation
 TreasuryTool's reputation is equal to the number of runs that you've participated in.
 
 You can use `++Rep` or `++Rep @username` to check an individual user's reputation.
 
 You can use `++Leaderboard` to see the users with the highest/lowest reputation.
+
+## Farmers
+
+<div id="commands1"></div>
+
+### Commands
+
+<div id="hosting1"></div>
+
+#### Hosting
+You can host squads for farming resources using the `++Host` command.
+
+Host commands are in the format `++Host -node -resource -time in minutes -your role` where `your role` is one of: `khora, nekros, nova, wisp, leech, any`.
+
+> `++Host -assur -plastids -60 -khora`
+<br/>`++Host -mot -argon crystals -120 -leech`
 
 ## Resources
 
