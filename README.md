@@ -16,7 +16,10 @@ Utility made for Anime Empire's Treasury Team.
 	    1. [Hosting](#hosting)
 	    2. [Reputation](#reputation)
 2. [Farmers](#farmers)
-	1. [Commands](#commands1)
+	1. [Queries](#queries1)
+		1. [Kingdoms](#kingdoms)
+		2. [Resources](#resources)
+	2. [Commands](#commands1)
 	    1. [Hosting](#hosting1)
 3. [Resources](#resources)
 
@@ -109,6 +112,22 @@ You can use `++Rep` or `++Rep @username` to check an individual user's reputatio
 You can use `++Leaderboard` to see the users with the highest/lowest reputation.
 
 ## Farmers
+
+<div id="queries1"></div>
+
+### Queries
+
+You can query kingdom resources, and singular resources using AETools.
+<br/> If you prefer not to use a prefix, for more efficient querying, you can DM AETools queries, without a prefix
+
+#### Kingdoms
+You can query kingdoms with their abbreviation `AK | IK | HK | WK | YK | MK`.
+
+#### Resources
+You can query specific resources of a kingdom in the format `{kingdom abbreviation} {resources}`.
+
+> `AK Ferrite`
+<br/>`MK Alloy Plate`
 
 <div id="commands1"></div>
 
