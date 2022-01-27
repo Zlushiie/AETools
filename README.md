@@ -15,6 +15,7 @@ Utility made for Anime Empire's Treasury Team.
 	3. [Commands](#commands)
 	    1. [Hosting](#hosting)
 	    2. [Reputation](#reputation)
+	    3. [Soup](#soup)
 2. [Farmers](#farmers)
 	1. [Queries](#queries1)
 		1. [Kingdoms](#kingdoms)
@@ -110,6 +111,9 @@ TreasuryTool's reputation is equal to the number of runs that you've participate
 You can use `++Rep` or `++Rep @username` to check an individual user's reputation.
 
 You can use `++Leaderboard` to see the users with the highest/lowest reputation.
+
+#### Soup
+You can format a list of relics into a soup store posting by `++{soup store shorthand}`, check out the shorthands [here](#soup-store).
 
 ## Farmers
 
