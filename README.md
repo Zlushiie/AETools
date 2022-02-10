@@ -97,23 +97,24 @@ You can query colors such as `ED` or `Red` to show all parts with the given colo
 ### Commands
 
 #### Hosting
-You can host squads for running relics using the hosting commands (`++Host`, `++Prehost`, and `++Bois`).
+You can host squads for running relics using the hosting commands (`/thost`).
 
-Host commands are in the format `++HostCommand -relic count -relic`.
+Host commands are in the format `/thost count: relicname: type:`.
 
-> `++Host -60 -AL4`
-<br/>`++Prehost -45 -Neo N16`
-<br/>`++Bois -30 -ML2`
+> `/thost count: 60 relic: AL4` This is a normal Treasury run of 60x Axi L4.
+<br/>`/thost count: 45 relic: NN16 type: PreHost` This is a prehost of a Treasury run of 45x Neo N16.
+<br/>`/thost count: 30 relic: AL2 type: bois` This is a bois run of 30x Axi L2. This does not contribute to your leaderboard progress.
 
 #### Reputation
 TreasuryTool's reputation is equal to the number of runs that you've participated in.
 
-You can use `++Rep` or `++Rep @username` to check an individual user's reputation.
+You can use `/rep` or `/rep person: @username` to check an individual user's reputation.
 
-You can use `++Leaderboard` to see the users with the highest/lowest reputation.
+You can use `/leaderboard` to see the users with the highest/lowest reputation.
 
 #### Soup
-You can format a list of relics into a soup store posting by `++{soup store shorthand}`, check out the shorthands [here](#soup-store).
+You can format a list of relics into a soup store posting by `/soup name: {soup store shorthand}`, check out the shorthands [here](#soup-store).
+<br/>Using this formatter, the relics will be sorted according to Era: `Axi-Lith-Meso-Neo` and by the number of ED parts.
 
 ## Farmers
 
@@ -140,7 +141,7 @@ You can query specific resources of a kingdom in the format `{kingdom abbreviati
 <div id="hosting1"></div>
 
 #### Hosting
-You can host squads for farming resources using the `++Host` command.
+You can host squads for farming resources using the `/Host` command.
 
 Host commands are in the format `++Host -node -resource -time in minutes -your role` where `your role` is one of: `khora, nekros, nova, wisp, leech, any`.
 
