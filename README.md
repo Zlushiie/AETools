@@ -24,7 +24,9 @@ Utility made for Anime Empire's Treasury Team.
 	    1. [Hosting](#hosting1)
 3. [Resources](#resources)
 
-You can use always use the command `++Help` to direct people to this page.
+You can use always use the command `/Help` to direct people to this page.
+
+Queries use the prefix `++` while commands use [slash commands](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ).
 
 > *Capitalization DOES NOT MATTER AT ALL when using the bot.*
 <br/>*The database for AETool updates every 3 minutes.*
@@ -141,12 +143,12 @@ You can query specific resources of a kingdom in the format `{kingdom abbreviati
 <div id="hosting1"></div>
 
 #### Hosting
-You can host squads for farming resources using the `/Host` command.
+You can host squads for farming resources using the `/fhost` command.
 
-Host commands are in the format `++Host -node -resource -time in minutes -your role` where `your role` is one of: `khora, nekros, nova, wisp, leech, any`.
+Host commands are in the format `/fhost node: resource: time: host: type:
 
-> `++Host -assur -plastids -60 -khora`
-<br/>`++Host -mot -argon crystals -120 -leech`
+> `/fhost node: assur resource: plastids time: 60 host: Khora type: Survival`
+<br/>`/fhost node: mot resource: argon crystals time: 120 host: Leech type: Survival`
 
 ## Resources
 
