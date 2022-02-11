@@ -16,12 +16,14 @@ Utility made for Anime Empire's Treasury Team.
 	    1. [Hosting](#hosting)
 	    2. [Reputation](#reputation)
 	    3. [Soup](#soup)
+	    4. [Ign](#ign)
 2. [Farmers](#farmers)
 	1. [Queries](#queries1)
 		1. [Kingdoms](#kingdoms)
 		2. [Resources](#resources)
 	2. [Commands](#commands1)
 	    1. [Hosting](#hosting1)
+	    2. [Ign](#ign)
 3. [Resources](#resources)
 
 You can use always use the command `/Help` to direct people to this page.
@@ -118,6 +120,9 @@ You can use `/leaderboard` to see the users with the highest/lowest reputation.
 You can format a list of relics into a soup store posting by `/soup name: {soup store shorthand}`, check out the shorthands [here](#soup-store).
 <br/>Using this formatter, the relics will be sorted according to Era: `Axi-Lith-Meso-Neo` and by the number of ED parts.
 
+#### Ign
+You can lookup someone's ign with the `/ign person:@person` command.
+
 ## Farmers
 
 <div id="queries1"></div>
@@ -149,6 +154,9 @@ Host commands are in the format `/fhost node: resource: time: host: type:
 
 > `/fhost node: assur resource: plastids time: 60 host: Khora type: Survival`
 <br/>`/fhost node: mot resource: argon crystals time: 120 host: Leech type: Survival`
+
+#### Ign
+You can lookup someone's ign with the `/ign person:@person` command.
 
 ## Resources
 
